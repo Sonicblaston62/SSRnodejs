@@ -7,8 +7,16 @@ app.get('/her/', (req, res) => {
 
 app.get('/home', (req, res) => {
     res.send(`
-        <h1>Her er en overskrift</h1>
         <p>Og her er en paragraf</p>
+    `);
+});
+app.get('/deltagere-1', (req, res) => {
+    res.send(`
+        <h1>Klassekamerater</h1>
+        <li>Victor</li>
+        <li>Heath</li>
+        <li>Kevin</li>
+        <li>Siri</li>
     `);
 });
 
